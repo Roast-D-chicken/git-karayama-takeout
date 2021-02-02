@@ -1,0 +1,92 @@
+// Place all the styles related to the orders controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+
+
+html {
+    font-family: "Yu Gothic UI","メイリオ",sans-serif;
+}
+
+
+
+.main-contents {
+  width: 100%;
+  //padding: 0 10px 0 10px;
+ // min-width: 880px;
+  
+  ul{
+   display: flex;   
+  }
+  
+}
+
+.menu {
+  width: 300px;
+  background-color:  #f4f4f4;
+  display: flex;
+  margin:  0 10px 10px 0px;
+  //border-radius: 5px;
+  overflow: hidden;
+}
+
+.menu-text {
+  font-size: 60px;
+  height: 150px;
+  width: 150px;
+  background-color: #fffaed;
+  
+  text-align:center;
+  line-height:150px;
+　word-break: break-all;
+  
+  //border: 1px solid #111;
+  
+  border-top: solid 1px #e3e2dc;
+  //border-right: solid 1px #111;
+  border-bottom: solid 1px #e3e2dc;
+  border-left: solid 1px #e3e2dc;
+  
+}
+
+.menu-count {
+  font-size: 90px;
+  height: 150px;
+  width: 150px;
+  font-weight: bold;
+  background-color: #ffffff;
+  
+  text-align:center;
+  line-height:150px;
+  
+  border-top: solid 1px #e3e2dc;
+  border-right: solid 1px #e3e2dc;
+  border-bottom: solid 1px #e3e2dc;
+  //border-left: solid 1px #000;
+  
+ 
+}
+
+button{
+  font-size: 20px;
+  height:50px;  
+  width:148px;
+  box-shadow: 0px 1px 2px #111;
+}
+
+
+
+  #btnsound{
+  font-size: 25px;
+  //font-weight: bold;
+  height:50px;  
+  width:300px;
+  border-radius: 30px;
+  background-color: #ffdc4f;
+  box-shadow: 0px 1px 2px #6e5d1a; 
+  
+  margin:  0 0 0 30px;
+  }
+
+  
+
+
